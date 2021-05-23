@@ -59,6 +59,5 @@ if c1 == r2:
 
 
 
-
 else:
     print("matrix multiplication is not possible since column of 1st matrix is not same as row of seconf matrix")
