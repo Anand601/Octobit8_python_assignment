@@ -1,0 +1,11 @@
+pycharm
+installed libraries such as 
+keras
+numpy
+pandas
+matplotlib
+sklearn
+PIL
+Tenserflow
+NLTK
+wrapt
