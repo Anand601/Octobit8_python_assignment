@@ -1,4 +1,4 @@
-pycharm
+pycharm version 3.7
 installed libraries such as 
 keras
 numpy
