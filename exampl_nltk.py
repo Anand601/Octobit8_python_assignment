@@ -2,8 +2,8 @@
 # coding: utf-8
 
 # In[3]:
-
 import nltk
+
 
 
 # In[9]:
@@ -11,19 +11,19 @@ import nltk
 
 text="hi my name is Anand. I am from aurangabad . its a very beautiful place , in maharashtra"
 from nltk.tokenize import sent_tokenize
-sent_tokenize(text)
+print(sent_tokenize(text))
 
 
 # In[10]:
 
 
-sent_tokenize("बसंती इन कुत्तों के सामने मत नाचना. यह हाथ मुझे दे दे ठाकुर! रिश्ते तो हम तुम्हारे बाप लगते हैं, नाम है शहंशाह!")
+print(sent_tokenize("बसंती इन कुत्तों के सामने मत नाचना. यह हाथ मुझे दे दे ठाकुर! रिश्ते तो हम तुम्हारे बाप लगते हैं, नाम है शहंशाह!"))
 
 
 # In[11]:
 
 
-nltk.word_tokenize(text)
+print(nltk.word_tokenize(text))
 
 
 # In[7]:
@@ -45,13 +45,13 @@ print(syn)
 # In[14]:
 
 
-syn[0].definition()
+print(syn[0].definition())
 
 
 # In[15]:
 
 
-syn[0].examples()
+print(syn[0].examples())
 
 
 # In[16]:
@@ -71,7 +71,7 @@ print(antonyms)
 
 from nltk.stem import PorterStemmer
 word_stemmer = PorterStemmer()
-word_stemmer.stem('believes')
+print(word_stemmer.stem('believes'))
 
 
 # In[19]:
@@ -79,14 +79,14 @@ word_stemmer.stem('believes')
 
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
-lemmatizer.lemmatize('believes')
+print(lemmatizer.lemmatize('believes'))
 
 
 # In[20]:
 
 
 from nltk.corpus import stopwords
-stopwords.words('english')
+print(stopwords.words('english'))
 
 
 # In[21]:
@@ -103,7 +103,7 @@ for w in words:
    if w not in stopwords:
        wordsFiltered.append(w)
                 
-wordsFiltered
+print(wordsFiltered)
 
 
 # In[23]:
@@ -120,6 +120,11 @@ for sent in sentences:
 
 
 # In[ ]:
+
+
+
+
+
 
 
 
