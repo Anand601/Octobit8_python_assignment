@@ -29,7 +29,7 @@ nltk.word_tokenize(text)
 # In[7]:
 
 
-import nltk
+
 
 
 # In[13]:
